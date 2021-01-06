@@ -13,7 +13,7 @@ typer = "^0.3.2"
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.scripts]
-covert = "covert.cli:run"
+covert = "covert.covert:app"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
