@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "covert"
+version = "2021.1.0"
+description = "CLI tool for fetching cover art from iTunes."
+authors = ["Hristo Filaretov <h.filaretov@campus.tu-berlin.de>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+coverpy = "^0.0.4"
+typer = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+covert = "covert.cli:run"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
